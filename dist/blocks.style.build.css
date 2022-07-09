@@ -1,0 +1,41 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-cgb-block-intermedia-google-ad-manager-blocks.is-left {
+  text-align: left; }
+
+.wp-block-cgb-block-intermedia-google-ad-manager-blocks.is-center {
+  text-align: center; }
+
+.wp-block-cgb-block-intermedia-google-ad-manager-blocks.is-right {
+  text-align: right; }
+
+.wp-block-cgb-block-intermedia-google-ad-manager-blocks.ad-is-left > div {
+  margin: inherit; }
+
+.wp-block-cgb-block-intermedia-google-ad-manager-blocks.ad-is-centered > div {
+  margin: 0 auto; }
+
+.wp-block-cgb-block-intermedia-google-ad-manager-blocks.ad-is-right > div {
+  margin-left: auto; }
+
+.wp-block-cgb-block-intermedia-google-ad-manager-blocks.show_mrec > div {
+  width: 300px; }
+
+.wp-block-cgb-block-intermedia-google-ad-manager-blocks.show_leaderboard > div {
+  width: 970px; }
+
+.wp-block-cgb-block-intermedia-google-ad-manager-blocks.show_half_page > div {
+  width: 300px; }
+
+.wp-block-cgb-block-intermedia-google-ad-manager-blocks .ad-label {
+  display: block;
+  font-size: 0.7em; }

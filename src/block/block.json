@@ -1,0 +1,48 @@
+{
+	"title": "Intermedia Google Ad Manager",
+	"icon": "share-alt",
+	"category": "intermedia",
+	"keywords": [
+		"Intermedia Google Ad Manager",
+		"Ads",
+		"Intermedia"
+	],
+	"styles": [
+		{
+			"name": "default", 
+			"label": "Default",
+			"isDefault": true
+		},
+		{
+			"name": "another", 
+			"label": "Another"
+		}
+	],
+	"attributes": {
+		"classNamesContainer": {
+			"type": "string",
+			"default": ""
+		},		
+		"adType": {
+			"type": "string",
+			"default": ""
+		},
+		"adTag": {
+			"type": "string",
+			"default": ""
+		},
+		"labelAlignment": {
+			"type": "string",
+			"default": "left"
+		},
+		"adPosition": {
+			"type": "string",
+			"default": "ad-is-left"
+		},
+		"adLabel": {
+			"type": "string",
+			"default": "advertisement"
+		}
+	}
+
+}

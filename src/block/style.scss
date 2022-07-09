@@ -1,0 +1,57 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-intermedia-google-ad-manager-blocks  {
+  // background: $red;
+  // border: 0.2rem solid $black;
+  // color: $black;
+  // margin: 0 auto;
+  // max-width: 740px;
+  // padding: 2rem;
+    &.is-left {
+      text-align: left;
+    }
+    &.is-center {
+      text-align: center;
+    }
+    &.is-right {
+      text-align: right;
+    }
+    &.ad-is-left {
+      > div {
+        margin: inherit;
+      }
+    }
+    &.ad-is-centered {
+      > div {
+        margin: 0 auto;
+      }
+    }
+    &.ad-is-right {
+      > div {
+        margin-left: auto;
+      }
+    }
+    &.show_mrec {
+      > div {
+        width: 300px;
+      }
+    }
+    &.show_leaderboard {
+      > div {
+        width: 970px;
+      }
+    }
+    &.show_half_page {
+      > div {
+        width: 300px;
+      }
+    }
+    .ad-label {
+      display: block;
+      font-size: 0.7em;
+    }
+}
